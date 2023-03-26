@@ -7,7 +7,7 @@
 
 
 
-void InitBoard(char board[ROWS][COLS], int rows, int cols, char set)                   //³õÊ¼»¯ÆåÅÌ
+void InitBoard(char board[ROWS][COLS], int rows, int cols, char set)                   //Â³ÃµÃŠÂ¼Â»Â¯Ã†Ã¥Ã…ÃŒ
 {
 	int i = 0;
 	int j = 0;
@@ -19,7 +19,7 @@ void InitBoard(char board[ROWS][COLS], int rows, int cols, char set)            
 		}
 	}
 }
-void DispiayBoard(char board[ROWS][COLS], int row, int col)            //´òÓ¡ÆåÅÌ
+void DispiayBoard(char board[ROWS][COLS], int row, int col)            //Â´Ã²Ã“Â¡Ã†Ã¥Ã…ÃŒ
 {
 	int i = 0;
 	int j = 0;
@@ -38,15 +38,4 @@ void DispiayBoard(char board[ROWS][COLS], int row, int col)            //´òÓ¡ÆåÅ
 		printf("\n");
 	}
 }
-void PlayerMove(char board[ROWS][COLS], int rows, int cols, char set)
-{
 
-}
-void ComputerMove(char board[ROWS][COLS], int rows, int cols, char set)
-{
-
-}
-//char IsWin(char board[ROWS][COLS], int rosw, int cols, char set)
-//{
-//
-//}
